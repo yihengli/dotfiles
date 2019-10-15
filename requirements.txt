@@ -1,0 +1,10 @@
+click
+flake8
+ipdb
+ipykernel
+mypy
+pandas
+pytest
+sphinx
+tqdm
+black
