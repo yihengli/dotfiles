@@ -15,7 +15,7 @@
 # ZSH_THEME="agnoster"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/root/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_MODE='nerdfont-complete'
@@ -97,3 +97,5 @@ POWERLEVEL9K_CUSTOM_USER="user_with_skull"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
+source $ZSH/oh-my-zsh.sh
+
