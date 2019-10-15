@@ -1,10 +1,14 @@
 click
 flake8
 ipdb
-ipykernel
+jupyterlab
 mypy
 pandas
 pytest
 sphinx
 tqdm
+feather-format
 black
+toml
+colorama
+colorlog
